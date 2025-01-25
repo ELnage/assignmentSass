@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+body {
+  background-color: #F4F2EE;
+  font-family:  cursive;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+
+}
+@layer components {
+  .active.catLink {
+    @apply bg-black text-white hover:bg-black hover:text-white
+  }
+}
