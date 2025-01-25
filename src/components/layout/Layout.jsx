@@ -7,7 +7,7 @@ export default function Layout() {
   return <> 
  <SideBar/>
 
-<div className="p-4 sm:ml-64 min-h-screen">
+<div className="p-4 overflow-hidden sm:ml-64 min-h-screen">
   <Outlet/>
 </div>
 <Footer/>
